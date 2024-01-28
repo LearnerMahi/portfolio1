@@ -1,0 +1,127 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .text {
+    color: #3366cc;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: bold;
+    position: relative;
+    animation: colorChange 3s infinite alternate;
+}
+
+        body{
+            background-color: rgb(15, 8, 42);
+            color: white;
+            font-family: 'Poppins',sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(10, 9, 20);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            font-size: 1.02rem;
+            color: lightcyan;
+        }
+        .left{
+            font-size: 2rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+        .leftsection{
+           /*  background-color: rgb(28, 62, 62); */
+            font-size: 2.5rem;
+            
+        }
+        
+        .rightsection img{
+            width: 80%;
+            margin: 45px 0;
+        }
+        .aqua{
+            color: aqua;
+            font-size: larger;
+        }
+        #element{
+            color:aquamarine
+        }
+        .secondSection{
+            max-width: 80vh;
+            margin: auto;
+        }
+        .rounded-image {
+    border-radius: 100%;
+    width: 250px;
+    height: 500px;
+    border: 3px solid #00ffff;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+       main hr {
+    border: 0;
+    background-color: white;
+    height: 2px; /* Adjust the height if necessary */
+    margin: 40px 0; /* Adjust the margin as needed */
+}
+.Text {
+    color: rgb(113, 113, 21);
+    position: relative;
+    animation: colorChange 3s infinite alternate;
+}
+@keyframes colorChange {
+    0% {
+        color: rgb(12, 56, 69);
+        left: 0;
+    }
+    100% {
+        color: rgb(21, 113, 75);
+        left: 50px; 
+    }
+}
+.rounded-image:hover {
+    transform: scale(1.05);
+}
+.additional-info {
+    flex-grow: 1;
+    margin-left: 20px; 
+}
+.img_social {
+    height: 50px;
+    width: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    margin: 5px; /* Add some spacing between the images */
+    transition: transform 0.3s ease-in-out;
+}
+
+.img_social:hover {
+    transform: scale(1.2);
+}
+
+        
+  
